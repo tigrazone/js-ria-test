@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tree View</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+	<form onsubmit="submitForm();return false">
+		path <input type=text style="width:300px" id=fn required>
+		<button type=submit>send</button>
+	</form>
+	<p id="demo"></p>
+	<script>
+	window.onload = function(){
+		getAllPaths();
+	}
+	</script>
+  </body>
+</html>
